@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+    color: #FFF;
+}
+
 main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 100vh;
     gap: 2rem;
 }
 
@@ -16,6 +21,7 @@ button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-top: 5rem;
 }
 
 button > img{
@@ -36,3 +42,28 @@ img{
     transition: .3s;
     transform: translateX(-10px);
 }
+
+.ConteinerCar{
+    width: 38rem;
+    height: 15rem;
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.ConteinerCar:hover{
+    height: 18rem;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+    padding: -1.5rem;
+}
+
+.ConteinerCar:hover h2{
+    transform: all .3s;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+h2{
+    font-size: 0;
+}
+
