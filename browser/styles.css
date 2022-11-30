@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 2rem;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button > img{
+    object-fit: cover;
+}
+
+img{
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.RightArrow:hover{
+    transition: .3s;
+    transform: translateX(10px);
+}
+
+.LeftArrow:hover{
+    transition: .3s;
+    transform: translateX(-10px);
+}
