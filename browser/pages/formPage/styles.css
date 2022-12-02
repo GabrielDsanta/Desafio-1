@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: #FFF;
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+input, button{
+    width: 20rem;
+    height: 2rem;
+    padding: .3rem;
+    border-radius: 4px;
+    border: 0;
+}
+
+.ConteinerBtn{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+}
